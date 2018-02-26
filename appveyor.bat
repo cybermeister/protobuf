@@ -1,5 +1,6 @@
 setlocal
 
+echo %PATH%
 pip install wheel
 cd %REPO_DIR%\python
 git checkout %BUILD_COMMIT%
